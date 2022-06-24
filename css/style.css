@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    width: 940px;
+}
+
+h1{
+    color: brown;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.section{
+
+    text-align: center;
+}
+
+.btn-buscar-perrito{
+    width: 250px;
+    height: 60px;
+    background: linear-gradient(white , green);
+    border: 2px solid green;
+    box-shadow: 4px 4px 2px black;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.btn-buscar-perrito:hover{
+    transform: scale(1.2);
+    transition: 1000ms;
+}
+
+.contenedor-perrito{
+    padding: 30px;
+    text-align: center;
+    width: 600px;
+}
+
